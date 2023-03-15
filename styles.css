@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+.featured-section{
+    width: auto;
+    height: 500px;
+    background: #F2ECEC;
+    border-radius: 10px;
+    background-image:url("assets/pexels-suntorn-somtong-1029243.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    box-shadow: inset 0 0 0 2000px rgba(37, 35, 37, 0.3);
+}
+.featured-section-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* featured-blog-title, featured-blog-author, featured-blog-date */
+
+.featured-blog-title{
+font-weight: 700;
+font-size: 42px;
+color: #ffffff;
+
+}
+.featured-blog-title:hover{
+    color: #FCA311;
+}
+
+
+
+.featured-blog-author{
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 10px;
+    
+
+}
+
+
+.featured-blog-date {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+.featured-blog-description{
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.featured-data{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.featured-date-author{
+    display: flex;
+}
+
+.nav-bar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.logo-text{
+    /* more styling to come */
+    color:#2C2E32;
+    font-size: 52px;
+    
+}
+.canvas{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.blog-list-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+    
+    margin-top: 30px;
+
+}
+.blog-item{
+    margin-top: 30px;
+    width: auto;
+    height: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: aliceblue;
+    /* background: #e5e5e5; */
+    /* background-color: bisque; */
+    
+}
+.blog-item-image{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.blog-item-title{
+    font-size: 20px;
+    
+}
+.blog-item-author{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.blog-item-date{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.date-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+.blog-data{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    
+}
+.blog-description{
+    padding-top: 10px;
+}
+.blog-link{
+    color: #2C2E32;
+    text-decoration: none;
+    
+}
+.blog-link:hover{
+    color: #FCA311;
+}
+
+
+
+/* styling individual blog page */
+
+.featured-section-blog-page{
+    width: auto;
+    height: 500px;
+      /* The image used */
+  background-image: url("./assets/pexels-pixabay-162534.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(35, 35, 34, 0.265);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-end;
+
+}
+.blog-page-header{
+    font-size: 42px;
+    color:#ffffff;
+    text-align: center;
+}
+.blog-page-header-date{
+    font-size: 22px;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+.post-area{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    width: 50%;
+    height: auto;
+    background-color: aliceblue;
+    
+}
+
+.blog-container{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h2-blog{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.side-bar{
+    width: 25%;
+    height: 350;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    background-color: #E5E5E5;
+    position: fixed;
+    right: 10px;
+   
+}
+.side-bar a{
+    text-decoration: none;
+    color: #2C2E32;
+    padding: 6px 8px 6px 16px;
+}
+
+.side-bar a:hover {
+    color: #FCA311;;
+}
